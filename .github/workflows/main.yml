@@ -24,6 +24,6 @@ jobs:
         run: |
           docker build -t app .
           docker login -u kenspellrepo -p dckr_pat_DnP74lJzVrMkhKFYYKpmZotga0c
-          docker tag app kenspellrepo/test
+          docker tag app kenspellrepo/practice-spells
           docker push kenspellrepo/practice-spells
          
